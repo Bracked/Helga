@@ -1,0 +1,36 @@
+.side-block {
+    position: absolute;
+    top: min(-40px,max(-10.28vw,-60px));
+    left: clamp(30px,10.34vw,80px);
+
+    * + * {
+        margin-top: 20px;
+    }
+}
+
+.side-text {
+    font-size: clamp(12px,2.63vw,16px);
+    color:var(--color-white);
+    text-transform: uppercase;
+    margin-left: 3px;
+
+}
+
+.side-title {
+    text-transform: uppercase;
+    font-family: "PoiretOne";
+    font-size: clamp(24px,6.27vw,64px);
+    font-weight: 900;
+    color:var(--color-title);
+
+}
+
+@media screen and(max-width:786px) {
+    .side-block {
+    
+        * + * {
+            margin-top: 10px;
+        }
+    }
+}
+

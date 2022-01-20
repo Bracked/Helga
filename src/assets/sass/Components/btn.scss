@@ -1,0 +1,28 @@
+.btn-reset {
+    border: none;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+}
+
+.btn {
+    border-radius: 45px;
+}
+
+.btn--secondary {
+    color:var(--color-shark);
+    font-weight: 600;
+    font-size: 12px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-secondary);
+}
+
+.btn--accent {
+    background-color: var(--color-accent);
+    font-size: 10px;
+    line-height: 1.6;
+}

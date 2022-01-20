@@ -1,0 +1,52 @@
+.header {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-opacity-silver);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: var(--z-header);
+    // display: none;
+    
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        flex-basis: 60%;
+
+    }
+
+    &__logo {
+
+    }
+
+    &__nav {
+      margin-left: 4.24rem ;  
+    }
+
+    &__right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-basis: 40%;
+    }
+
+    &__number {
+      
+    }
+
+    &__translational {
+      margin-left: 20px;
+      text-transform: uppercase;
+      padding: 0 29px;
+
+      img {
+        margin-right: 10px;
+      }
+    }
+}

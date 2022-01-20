@@ -1,0 +1,10 @@
+.logo {
+    &__name,
+    &__about {
+        width: 12.5rem;
+    }
+
+    &__about {
+        display: block;
+    }
+}

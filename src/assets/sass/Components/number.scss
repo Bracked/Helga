@@ -1,0 +1,31 @@
+.number {
+    padding-right: 4.1rem;
+    display: inline-block;
+    color:var(--color-white);
+    font-size: 1.4rem;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+    }
+
+    &::before {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 4.9rem;
+        height: 4.9rem;
+        background: url(../img/tel_btn.svg) center/contain no-repeat;
+    }
+
+    &::after {
+        top: 50%;
+        right: 13%;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 12px;
+        background: url(../img/tel.svg) center/contain no-repeat;
+    }
+}

@@ -1,0 +1,86 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "reset";
+
+
+
+html{
+  scroll-behavior: smooth;
+	overflow-x: hidden;
+  font-size: 47%;
+
+  @media screen and (min-width: 1200px) {
+	  font-size: 62.5%;
+  }
+
+  @media screen and (min-width: 991px) {
+	  font-size: 55%;
+  }
+
+  @media screen and (min-width: 576px) {
+	  font-size: 50%;
+  }
+}
+body {
+  font-family: "Montserrat";
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: var(--color-black);
+  background-color: var(--color-main-bg);
+  
+}
+
+.container {
+   max-width: 1394px;
+   padding: 0 28px;
+   margin: 0 auto;
+
+   @media screen and (max-width:576px) {
+    padding: 0 14px;
+}
+
+
+  }
+ 
+  .page {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // height: 100%;
+  }
+
+//Blocks
+@import "Blocks/header.scss";
+@import "Blocks/hero.scss";
+@import "Blocks/about.scss";
+
+
+
+//Components
+@import "Components/logo.scss";
+@import "Components/nav.scss";
+@import "Components/btn.scss";
+@import "Components/number.scss";
+@import "Components/side-block.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Components
+
+
+
